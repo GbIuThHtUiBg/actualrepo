@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<title>My Profile!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('https://1000logos.net/wp-content/uploads/2019/07/RMIT-emblem.jpg');
+  min-height: 100%;
+}
+</style>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#top" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#my personal information" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Personal Information</a>
+    <a href="#interest in it" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Interest in IT</a>
+    <a href="#ideal job" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Ideal Job</a>
+    <a href="#profile" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Profile</a>
+    <a href="#project idea" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Project Idea</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="top">
+    <h1 class="w3-jumbo"><b>Heya! I'm Kenneth</b></h1>
+  </header>
+
+  <!-- Personal Information Section -->
+  <div class="w3-padding-32 w3-content" id="my personal information">
+    <h2 class="w3-text-black">My Personal Information</h2>
+    <hr class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="/w3images/wedding.jpg" style="width:100%">
+        <img src="/w3images/rocks.jpg" style="width:100%">
+        <img src="/w3images/sailboat.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="/pic me.jpeg" style="width:100%">
+        <img src="/w3images/chef.jpg" style="width:100%">
+        <img src="/w3images/wedding.jpg" style="width:100%">
+        <img src="/w3images/p6.jpg" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  </div>
+
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h3>About</h3>
+    <hr class="w3-opacity">
+    <p> Hi! First off, here are my contact details: <br>My RMIT student ID: S3895797<br>My RMIT student email: S3895797@student.rmit.edu.au<br>And of course, my name! I'm Kenneth Pham.
+    </p>
+    <hr>
+    <p>
+    I was born in Australia of Vietnamese parents, English is my first language, Vietnamese being my second.
+    </p>
+    <p>
+    I also recently completed high school in 2020 and am studying my first year at RMIT.
+    </p>
+    <p>
+      I have a passion for creative pursuits; drawing and painting is a hobby while singing and dancing is an interest, the latter I have barely dipped my toes in. It was thanks to high school that I got to discover these interests through the clubs and ensembles that formed around these activities. Yet, these are still things I perceive myself to be terrible at and I strive to improve myself through learning from what would be millions of mistakes. Not singing and dancing though; no one wants to be breaking bones and blowing out their voice as a mistake.
+      </p>
+      <p>
+      That aside, I believe more in ‘Perfect practise makes perfect’, as ‘Practise makes perfect’ is rather misleading and leads to aimlessly repetitive mistakes that you are not being conscientious about. I find this to be especially true when it comes to said hobbies and interests, as a past teacher has enlightened me to.
+    </p>
+    <h3 class="w3-padding-16">Hobbies/Interests and my progress relative to my goals</h3>
+    <p class="w3-wide">Drawing and Painting</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:33%">33%</div>
+    </div>
+    <p class="w3-wide">Singing</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:15%">15%</div>
+    </div>
+    <p class="w3-wide">Dancing</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:5%">5%</div>
+    </div><br>
+
+  <!-- End Personal Information Section -->
+  <hr>
+  <!-- Interest in IT Section -->
+  <div class="w3-padding-32 w3-content" id="interest in it">
+    <h2 class="w3-text-black">My Interest in IT</h2>
+    <hr class="w3-opacity">
+    <p>The programming part of IT really interests me, in part because what you can do with programming is limited only by the imagination. My interest in programming specifically came from playing a game.
+    </p>
+    <p>A preface to the game (Dragalia Lost):
+    <br>
+    The game itself features characters with unique attacks, abilities and skills while pitting you against monsters that you have to defeat under a set time. As the game intends for you to repeatedly beat the bosses, a ‘META’ develops amongst players (Most Efficient Tactic Available) in order to finish the fights as quickly as possible. This would be the combinations of characters and their interactions with the bosses in the fight.
+    </p>
+    <p> What is important to note that players are not privy to the exact values of an attack or skill and the damage formula and calculations, thus it is hard for players to determine a META in the first place. This is where datamining comes in, one of the things that I found interesting in IT. With the help of exact numbers and values (e.g., Damage calculations formula, how long in frames it takes for animations of skills to play out) a ‘DPS simulator’ was developed with the help of individuals coming together from the Dragalia Lost community. The simulator detailed how much damage per second a character dealt to bosses, which helps in determining which characters to bring to the fights, as those at the higher echelons of the graph were seen to be the best (and therefore META) characters for the fight. The simulator was coded with python, and it was eye opening seeing programming being used to establish a META, no less in a game I enjoyed playing, which is what sparked my interest in programming (and therefore IT). Prior to this I had no IT experience.
+    </p>
+    <p> Initially, as my interest was mostly in programming, I had thought to do a Bachelor of Computer Science but decided to do study IT instead as the course at RMIT had an introduction to programming, while CS jumped right into what I thought was too advanced to go into it without any background. I chose RMIT (specifically the city campus) over Monash University as I did not want to spend four hours to and from the university on public transport; it was more convenient for me as I had a terrible experience taking the train to high school for four years that totalled two hours each day walking or on the train.
+    </p>
+    <p> Within the first year of the course, I expect to have dipped my toes into IT, which by then I will have hopefully decided if I truly wish to continue programming or go into another part of IT. As for the rest of my studies, it still remains a mystery. 
+    </p>
+    <!-- End Interest in IT Section -->
+<hr>
+  <!-- Ideal Job Section -->
+  <div class="w3-padding-32 w3-content" id="ideal job">
+    <h2 class="w3-text-black">My Ideal Job<sup>1</sup></h2>
+    <hr class="w3-opacity">
+    <p>The ideal job itself is in the Telecom industry and consists of being an individual python developer working in a group to setup network device parameters.
+    </p>
+    <p> The job position of a python developer appeals to me as, given what I have learned at RMIT thus far, there is a focus on coding. Out of the four classes I have taken, learning to program with python has definitely been the favourite (Introduction to Programming). As what made me interested in IT, specifically coding, were games and simulations made from said games, the coding aspect stands out as something I want from any future job. Said statement is especially true for a dream job.
+    </p>
+    <p> Personal interest aside, the suggested pay would help me in my goal of achieving financial security. Additionally, the security of the Telecommunications job market, the prevalence and need for IT in general means a stable source of income, reducing the need to think about changing professions.
+    </p>
+    <p> What is required for this job is the bread and butter of coding: writing programs in the interest of making software work and managing its upkeep through debugging and general maintenance. You are to also be the medium to the clients, translating everything with your programming skills with regards to improved developments in pre-existing proposed solutions. Experience with coding using python is a given, as well as software development using at least one framework or library, such as Pandas or NumPy.
+    </p>
+    <p> Collaboration is also key: you are required to work in tandem with other developers and clients with the aim of creating working software as a solution. Collectively, competency and flexibility are valued as well as the ability to establish a close connection between developers and clients in order to find what works.
+    </p>
+    <p> To date, I have no substantial technical experience, only the cursory, superficial knowledge to programming. Proportionately, to say it chips even a microgram of rock matter from Mauna Kea is an overstatement. Yet I do have traits and qualities that would be valued as an individual python developer working in a team with clients. They would be flexible thinking and affability; both being positive attributes in and out of the workplace.
+    </p>
+    <p> As the technical experience is lacking, the plan is to gain knowledge from the Information Technology program while putting said knowledge into practice and, as learning does not stop at RMIT, develop my technical skills through personal projects to challenge myself with what I do not know. If there were to be something missing from the curriculum of the course that is needed in industry, I would learn the ropes.
+    </p>
+    <!-- End Interest in Ideal Job Section -->
+<hr>
+  <!-- Profile Section -->
+  <div class="w3-padding-32 w3-content" id="profile">
+    <h2 class="w3-text-black">My Profile</h2>
+    <hr class="w3-opacity">
+    <h5>Myers-Briggs Personality Test<sup>2</sup></h5>
+    <p>
+    From the data above, the test results suggest a personality that leans towards more being ruled by one’s emotion and thoughts. Consequent actions are as a result based on emotion rather than rationale (intuition). Using words from the survey itself, the heavy disposition towards the ‘Intuitive’ trait suggests open-mindedness, imagination and curiosity. The ‘Prospecting’ trait suggests one who is flexible, non-conforming in an effort to not limit one’s possibilities.
+    </p>
+    <p> With regards to team behaviour, these results suggest being non-confrontational with ideas, rather, being accepting of ideas and input in the hopes that it could be developed further. It also suggests a thorough approach to completing tasks – perhaps even to perfection.
+    </p>
+    <p> The flexibility and open-mindedness lend itself to being useful in any team. The only consideration that would need to be taken would be to not end up in a group with only open-minded introverts, as then discussion would be like trying to get jelly to bounce back a ball: It does not.
+    </p>
+    <p> The Myers-Briggs test faces the limitation of generalising humanity’s personality down to 16 groups. In order to capture all the fish in the sea, the widest net is cast; Vague explanations and attributes were assigned that seemed ‘special’ and peculiar to an individual when in fact it is human nature and therefore common occurrence. Verbatim from the results, ‘Turbulent individuals… are likely to experience a wide range of emotions and to be success-driven’. This tactic comes off as cheap as it does not necessarily explain someone’s personality – it only tells them what it means to be human. If the point of a personality test, one named ’16 Personalities’, no less, was to distinguish people from one another by personality, then including a trait that all humans possess seems like an effort to appeal to the respondent than to provide a valid metric. This devalues the argument for the Myers-Briggs test being one that is valid, and consequently, the results that come from it.
+    </p>
+    <br>
+    <h5>Learning Styles Test<sup>3</sup></h5>
+    <p> From the summaries given for each of these styles, it can be said that for the order of Activist – Pragmatist – Reflector – Theorist, a spectrum exists; one that encompasses the physical to the mental. Given the strongest matches, it suggests my learning style falls within the centre, yet leans slightly towards the Theorist style when accounting for the outer parameters. It means that I learn both from putting into practice the knowledge I have gained and from taking a step back to think over new content.
+    </p>
+    <p> The rather balanced learning style allows me to be adaptable; yet a jack of all trades, master of none. It allows for me to be not so at odds with another team member when it comes to dealing with new content, as it would probably be if hypothetically a 100% Activist was paired with a 100% Theorist. This means I probably behave in a cohesive manner in teams.
+    </p>
+    <p> As with the Myers-Briggs test, this balanced learning style would work with most any combination of people yet does not suffer the pitfall of having too many ‘balanced learning style’ individuals leading to unfavourable scenarios. The fringe case where it would be considered detrimental is where the group would be working with User-Centred Design in mind. A group of solely balanced learning style individuals would not be able to account for extreme cases of Activist or Theorist learning styles in the formative design stage, meaning more time and resources are spent on the stage to compensate for the lack of understanding of different individuals.
+    </p>
+    <p> Despite this, if the assumption that these four learning styles falls into a spectrum is false, then what would be a ‘balanced learning style’ would instead be the antithesis of the practical and theoretical, the physical and mental. This brings into question the validity of the definitions of these four styles; perhaps there is more nuance than the definitions and information given, maybe re-evaluate the paradigm to resemble a spectrum and thus display the results with a different graph to accommodate the new system. The current paradigm assigns two continuums: The ‘Processing’ and ‘Perception Continuum’ much the same as the x and y-axis. As it stands, Pragmatists are assigned the third quadrant (bottom left), Reflectors the first quadrant (top right). These two styles are at odds with each other, antithetical in both continuums, bringing into question the equal match for these learning styles in the results. Further data would need to be provided to see whether this is an outlier.
+    </p>
+    <br>
+    <h5>Creativity Test<sup>4</sup></h5>
+    <p> These results imply that my ability to innovate is moderately high, with a score of 59 sitting just on the threshold after the previous score range.
+    </p>
+    <p> In terms of behaviour within a team, these results suggest my creativity could be an asset to the team. If a role were to exist that incorporated creativity, I would be somewhat suited to said role. Yet, it also states that innovation does not exist only in the realm of thinking of new ideas; employment and development of said ideas are also deemed to be an exercise of creativity. This means that if I were to be in a team with more creative individuals, my role could be supplementary to theirs, breaking down and building up their ideas so as to gain the most out of their creativity.
+    </p>
+    <p> The Mind Tools Content team are of the thought that creativity is an absolute positive quality. What was previously stated regarding my possible team behaviour is applicable to what to consider when forming a team. Yet, in saying so, I would need to be aware if I was the most creative or tasked to be ‘the creative one’ as my ideas may stem from different backgrounds or be nuanced to the point that a conclusion cannot be reached between other team members with a different approach or school of thought.
+    </p>
+    <p> The classification of respondent’s creativity through the score system in bands of three, which more or less can be simplified to low, medium and high, is in itself limiting the nuance of creativity. It operates under the assumption that creativity is similar to a trait – you either possess it or you do not, with a middling value in the form of the medium band to avoid addressing the fact that yes, there does exist a spectrum.
+    </p>
+    <p> Yet we can see where they reference Mihaly Csikszentmihalyi’s ‘well-respected’ book ‘Creativity’ and its five steps, transforming those five steps into qualitative data that is quantitively assessed (A rating of your ‘Insight’ calculated from relevant questions), there is authority in their methodology that alleviates the less valid display of results discussed in the previous paragraph.
+    </p>
+    <!-- End Profile Section -->
+<hr>
+  <!-- Project Idea Section -->
+  <div class="w3-padding-32 w3-content" id="project idea">
+    <h2 class="w3-text-black">My Project Idea</h2>
+    <hr class="w3-opacity">
+    <p> This project idea is inspired by what initially interested me regarding programming. It is to code a simulator, most likely to calculate DPS (damage per second), for a game called Brawl Stars. So far, there is only one person who seems to have done this, but they have only displayed it in a graphic with ‘x’ brawler has ‘y’ DPS. The DPS simulator for Dragalia Lost<sup>5</sup> inspired this idea; it uses python code to crunch the numbers, then displays it with segmented bar charts with its own UI. The simulator also operates on another site where you can customise values (e.g., equipment adventurers use, enemy statistics), which is what I hope to do for this project idea but for Brawl Stars.
+    </p>
+    <p> It will be interesting to code as the damage system for Dragalia Lost and Brawl Stars are vastly different, meaning I cannot rely entirely on the former’s open-source code for the project. It will be used as inspiration and to challenge my beginner’s programming skills.
+    </p>
+    <p> The idea is to program, using Brawl Star’s data from the game files, a calculation for DPS of each brawler (the characters within the game).
+    </p>
+    <p> Two different sites will be made. One focuses on the customization aspect of one brawler, for example: Some brawlers benefit from attacking from far away but are weaker up close. In this case I would account for projectile speed and distance in calculations and add it as a user input in the UI of the website. The customization aspect is implemented in the UI: there will be boxes to tick (Is this brawler getting a status that increases damage? Is it under negative effects such as reduced reload time?), a dropdown menu to pick star powers (Abilities unique to each brawler, from which they can choose only one) and other parameters. This would then update the code with whatever the user inputs and then it would run the code, calculating the customized DPS. This is especially helpful in theorycrafting for the one brawler. If possible, I would further explore the aspect of theorycrafting by adding customizations that do not use Brawl Star’s game file data. This means users can create hypothetical abilities for example, as I see very often people within the community coming up with new brawlers or adjusted ability design. This gives those people a platform to test their creativity.
+    </p>
+    <p> The other site focuses on the comparison of brawlers displayed with a segmented bar chart. The comparison aspect will be furthered through the use of filtering in the UI. This is because there are categories which each brawler fits into which accounts for their often-unique statistics. One such category would be the ‘sharpshooters’, brawlers with long range. The filter would help in dividing the categories so as to compare the brawlers within the class itself. This matters as Brawl Stars is a 3v3 game where players fight others on ‘game modes’ each with their own ‘map’.
+    </p>
+    <p> These game modes and maps are often different in the way in which you would play out the match and structurally respectively, resulting in certain classes being the META. If I were to make an example out of real life: a game mode would be soccer or capture the flag, while a map would be a an empty field, or a field with some walls to obstruct players, or a field with short fences placed strategically. It means that players who are better jumpers than others may favour the map with short fences. In Brawl Stars, sharpshooters often favour maps with few obstacles that are likely to provide cover for the enemies.
+    </p>
+    <p> It helps in finding the best brawlers for a game mode where damage is king, which there are several of. Overall, it would be used as a tool to develop META’s, or even quirky hypotheticals such as ‘how can I deal exactly 14999 damage to leave the enemy’s structure at one Hit Point?
+    </p>
+    <p> Additionally, when new brawlers are added to the game, players will be able to judge the strength of the brawler and see their place in the META. It also helps to see if brawlers are over-tuned or under-tuned (answers the question: Is this brawler balanced?), which is helpful as the game developers themselves are not as transparent with the data they share on why they adjust brawlers.
+    </p>
+    <p> The hardware needed is anything that can run python. Python and a website are necessary for the coding and display of the data are necessary so that the public is able to use the simulator. What I have in mind is GitHub to host the website.
+    </p>
+    <p> I need the technical coding skills and knowhow of datamining as well as HTML/CSS to accomplish making and pulling together everything for the final outcome. Much of this will be learnt, as my baseline knowledge is rather lacking, using the Dragalia Lost DPS simulator as a template for the approach to this project, as was discussed previously. The feasibility of the project idea in question is rather low, accounting for both my own lack of skill and when it comes to forming teams; the topic may be banal to some as not everyone may enjoy a game like this, it is neither Avant-Garde nor does it solve real world inconveniences.
+    </p>
+    <p> While the outcome has been discussed in tandem with the plan and intended impact, no original problem was addressed previously. Despite this, not all solutions arise from problems with tangible effects. This project idea is more of a quality-of-life addition that gives the Brawl Stars community what they did not know they might have needed, as I have yet to see players actively asking for any of these features. Tangentially, I have seen players question the game developer’s reasons for adjusting brawlers and this may be one of many possible answers to those questions.
+    </p>
+    <!-- End Project Idea Section -->
+<hr>
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-left w3-opacity w3-xlarge" style="margin:-20px">
+  <div class="w3-padding-32 w3-content" id="reference">
+    <h2 class="w3-text-black">References</h2>
+    <hr class="w3-opacity">
+  <p class="w3-medium">1. Seek.com.au, <a href="https://www.seek.com.au/job/51840761?type=standout#searchRequestToken=550aa14e-e539-4b27-9813-e2cdb4d1aee5" target="_blank" class="w3-hover-text-green">Ideal Job</a></p>
+<p class="w3-medium">2. <a href="https://www.16personalities.com/free-personality-test" target="_blank" class="w3-hover-text-green">Myers-Briggs Personality Test</a></p>
+<p class="w3-medium">3. Brooksbank, C., Ludwig ,R., Dallakian, P., <a href="https://www.seek.com.au/job/51840761?type=standout#searchRequestToken=550aa14e-e539-4b27-9813-e2cdb4d1aee5" target="_blank" class="w3-hover-text-green">Learning Styles Test</a></p>
+<p class="w3-medium">4. Mind Tools Content Team, <a href="http://www.emtrain.eu/learning-styles" target="_blank" class="w3-hover-text-green">Creativity Test</a></p>
+<p class="w3-medium">5. Dragalia Lost DPS Simulator, <a href="https://wildshinobu.pythonanywhere.com/dl-sim-vue/#/" target="_blank" class="w3-hover-text-green">Comparitive Simulator</a> and <a href="https://wildshinobu.pythonanywhere.com/ui/dl_simc.html" target="_blank" class="w3-hover-text-green">Custom Simulator</a></p>
+    <p class="w3-medium">Template provided by w3schools <a href="https://www.w3schools.com/w3css/tryw3css_templates_bw_portfolio.htm#portfolio" target="_blank" class="w3-hover-text-green">Black and White Portfolio Template</a>, powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+  
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
